@@ -1,0 +1,10 @@
+{
+  "id": "movemytasks",
+  "name": "MoveMyTasks",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Automatically move checked tasks to a Completed section, or use custom commands to send tasks to any section you define.",
+  "author": "Tirth Dudhat",
+  "authorUrl": "https://github.com/tirthd16",
+  "isDesktopOnly": false
+}
