@@ -24,7 +24,7 @@ const DEFAULT_SETTINGS: Partial<PluginSettings> = {
     ]
 };
 
-export default class MyPlugin extends Plugin {
+export default class MoveMyTasksPlugin extends Plugin {
     settings: PluginSettings;
     private ref: EventRef | null = null;
     async onload() {
@@ -78,7 +78,7 @@ export default class MyPlugin extends Plugin {
 }
 
 
-export class MySettingTab extends PluginSettingTab {
+export class MoveMyTasksSettingTab extends PluginSettingTab {
     plugin: MyPlugin;
 
     constructor(app: App, plugin: MyPlugin) {
